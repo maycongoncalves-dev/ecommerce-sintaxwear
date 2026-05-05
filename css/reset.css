@@ -48,6 +48,7 @@ mark, audio, video) {
 
 :where([type='button'], [type='reset'], [type='submit']) {
   -webkit-appearance: button;
+  appearance: button;
 }
 
 :where(button::-moz-focus-inner, [type='button']::-moz-focus-inner,
@@ -62,6 +63,7 @@ mark, audio, video) {
 
 :where([type='search']) {
   -webkit-appearance: textfield;
+  appearance: textfield;
   outline-offset: -2px;
 }
 
@@ -89,6 +91,10 @@ mark, audio, video) {
 
 :where(ul, ol) {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 :where(*, *::before, *::after) {
