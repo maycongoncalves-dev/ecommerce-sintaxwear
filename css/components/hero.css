@@ -29,40 +29,13 @@
 .hero-content .hero-title {
     font-size: 1.87rem;
     margin-bottom: 0.5rem;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 36px;
 }
 
 .hero-content .hero-subtitle {
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
-.btn {
-    font-size: 1.25rem;
-    width: 161px;
-    height: 48px;
-    border-radius: 25px;
-    color: #ffffff;
-    font-weight: 400;
-    padding: 10px 20px;
-    transition: background-color 0.3s, border 0.3s;
-}
-
-.btn-outline {
-    background-color: transparent;
-    border: 2px solid #ffffff;
-    line-height: 23px;
-}
-
-.btn-filled {
-    background-color: #ffffff;
-    color: #6329a2;
-}
-
-.btn:hover {
-    background-color: #6329a2;
-    color: #ffffff;
-    border-color: #6329a2;
-}
 
